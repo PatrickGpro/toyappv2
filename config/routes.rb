@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root 'application#hello'
-end
+  resources :users  # Obsługuje wszystkich ziomkow
+  root 'users#index' # glowna to wszyscy ziomkowie
