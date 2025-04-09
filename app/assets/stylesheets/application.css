@@ -1,10 +1,60 @@
-/*
- * This is a manifest file that'll be compiled into application.css.
- *
- * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
- * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
- * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
- * depending on specificity.
- *
- * Consider organizing styles into separate files for maintainability.
- */
+html{
+    background-color: hsl(34, 78%, 91%);
+    font-family: 'Arial';
+    
+
+}
+h1{
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+table {
+    border-collapse: separate;
+    width: 80%;
+    text-align: center;
+    border-spacing: 10px; }
+.new-user{
+    text-align: center;
+}
+.pokaz{
+    border: 2px black;
+    border-radius: 10%  ;
+    padding: 5%;
+    color: white ;
+    background-color:hsla(40, 4%, 45%, 0.401); ;
+    display:flex;
+
+}
+.edytuj{
+    border: 2px black;
+    border-radius: 10%  ;
+    padding: 5%;
+    color: rgb(59, 139, 214) ;
+    background-color:hsla(40, 4%, 45%, 0.401); 
+    display:flex;
+   
+    
+ 
+}
+
+.usun{
+    border: 2px black;
+    border-radius: 10%  ;
+    padding: 5%;
+    color: rgba(250, 43, 43, 0.834) ;
+    background-color:hsla(40, 4%, 45%, 0.401); ;
+    display:flex;
+}
+.new-user{
+    border: 2px black;
+   
+  
+    padding: 2%;
+
+    
+    background-color:hsla(40, 4%, 45%, 0.401); ;
+}
+

@@ -1,0 +1,45 @@
+pl:
+  pl: Polski
+  activerecord:
+    models:
+      user: Użytkownik
+    attributes:
+      user:
+        name: Imię
+        email: E-mail
+  helpers:
+    submit:
+      user:
+        create: "Utwórz użytkownika"
+        update: "Zapisz zmiany"
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      blank: "nie może być puste"
+      too_short: "jest za krótkie"
+      too_long: "jest za długie"
+      taken: "jest już zajęte"
+      invalid: "jest nieprawidłowe"
+  number:
+    format:
+      separator: ","
+      delimiter: " "
+  datetime:
+    distance_in_words:
+      half_a_minute: "pół minuty"
+      less_than_x_seconds:
+        one: "mniej niż sekundę"
+        other: "mniej niż %{count} sekund"
+      x_seconds:
+        one: "1 sekunda"
+        other: "%{count} sekund"
+      x_minutes:
+        one: "1 minuta"
+        other: "%{count} minut"
+  date:
+    formats:
+      default: "%d.%m.%Y"
+  time:
+    formats:
+      default: "%H:%M"
+
